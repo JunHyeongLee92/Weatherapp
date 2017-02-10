@@ -22,7 +22,10 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
 
-
+/**
+ * Created by 준형 on 2016-08-14.
+ * GPS정보에 대한 클래스
+ */
 public class GpsInfo extends Service implements LocationListener {
     private static final String TAG = "GpsInfo";
     private static final int REQUEST_CODE_LOCATION = 2;
